@@ -1,9 +1,6 @@
 import React from "react";
 import "./App.css";
 import Pomodoro from "./pomodoro/Pomodoro";
-//import Alarm from "./Alarm";
-//import BreakDuration from "./BreakDuration";
-//import FocusDuration from "./FocusDuration";
 
 function App() {
   return (
@@ -13,9 +10,6 @@ function App() {
       </header>
       <div className="container">
         <Pomodoro />
-        {/* <BreakDuration />
-        <FocusDuration />
-        <Alarm /> */}
       </div>
     </div>
   );
